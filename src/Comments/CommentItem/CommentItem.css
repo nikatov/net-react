@@ -1,0 +1,40 @@
+.edit-comment-form {
+    display: flex;
+}
+
+.edit-comment-text {
+    width: 85%;
+    margin-right: 10px;
+}
+
+.edit-comment-text > textarea {
+    width: 100%;
+    margin-top: 0;
+}
+
+.ok-btn, .cancel-btn {
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 auto 10px;
+    border-radius: 5px;
+}
+
+.ok-btn {
+    color: white;
+    background: linear-gradient(var(--btn-gr-color1), var(--btn-gr-color2));
+}
+
+.ok-btn:hover {
+    background: linear-gradient(var(--btn-gr-color2), var(--btn-gr-color1));
+}
+
+.cancel-btn {
+    color: black;
+    background: white;
+    border: 2px solid var(--btn-gr-color1);
+}
+
+.cancel-btn:hover {
+    border-color: var(--btn-gr-color2);
+}

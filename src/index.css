@@ -1,0 +1,21 @@
+:root {
+    --base-color: rgb(61, 190, 82);
+    --btn-gr-color1: rgb(80, 197, 95);
+    --btn-gr-color2: rgb(71, 184, 86);
+    --black-light-color: rgb(35, 35, 35);
+    --grey-base-color: rgb(175, 172, 172);
+    --grey-light-color: rgb(226, 218, 218);
+    --grey-xlight-color: rgb(250, 245, 245);
+    --error-base-color: rgb(219, 18, 28);
+    --error-light-color: rgb(241, 138, 144);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', Tahoma;
+}
+
+body {
+    margin: 0 auto;
+}

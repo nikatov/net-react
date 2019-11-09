@@ -1,0 +1,20 @@
+.notifications-container {
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.notification {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    background: rgb(13, 110, 13);
+    border: none;
+    border-radius: 10px;
+}
